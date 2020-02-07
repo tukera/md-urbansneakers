@@ -1,0 +1,25 @@
+$module: 'header-search-form-mobile';
+
+.#{$module} {
+  @include media-breakpoint-up(lg) {
+    visibility: hidden;
+  }
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $white;
+  z-index: 8192;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0 7px;
+    border-bottom: 1px solid $black;
+  }
+}

@@ -1,0 +1,19 @@
+$module: 'brands-index';
+
+.#{$module} {
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 20px;
+  }
+
+  .top-brands {
+    margin: 20px 0;
+  }
+
+  .brands-buttons {
+    margin: 20px 0;
+
+    @include media-breakpoint-up(md) {
+      margin: 30px 0;
+    }
+  }
+}

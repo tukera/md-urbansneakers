@@ -1,0 +1,105 @@
+$module: 'sneaker';
+
+.#{$module} {
+  &__title {
+    color: $black;
+  }
+
+  &__separator {
+    margin: 20px 0;
+  }
+
+  &__gender {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  &__separator-short {
+    width: 30px;
+    border-color: $dark-gray;
+    margin: 12px 0;
+  }
+
+  &__excerpt {
+    font-size: $font-size-lg;
+    letter-spacing: 0.0625rem;
+  }
+
+  &__raiting-wrapper {
+    margin: 10px 0;
+  }
+
+  &__content {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  &__color-description {
+    margin-bottom: 5px;
+  }
+
+  &__shop-logo {
+    position: relative;
+    text-align: left;
+    min-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  &__shop-logo-wrapper {
+    display: inline-block;
+  }
+
+  &__price {
+    text-align: right;
+    font-weight: bold;
+    color: $black;
+    line-height: 1.25rem;
+    font-size: 1.25rem;
+  }
+
+  &__price-old {
+    color: $dark-gray;
+    text-decoration: line-through;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+  }
+
+  &__sizes-wrapper {
+    margin-bottom: 18px;
+  }
+
+  &__button-shop-conatiner {
+    height: 2.438rem;
+    margin-top: 18px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 40px;
+    }
+  }
+
+  &__button-shop {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.4375rem;
+    font-size: $font-size-h4;
+    float: right;
+  }
+
+  &__social-media-links {
+    display: inline-block;
+  }
+
+  &__social-media-links-title {
+    display: inline-block;
+    font-size: $font-size-lg;
+    margin-right: 5px;
+    float: left;
+  }
+
+  &__social-media-links-icons {
+    margin: 0 0 0 5px;
+  }
+}

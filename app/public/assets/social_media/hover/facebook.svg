@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.9999451,1.04805054e-13 L16,16 L5.49188823e-05,15.9998902 L1.10755849e-12,3.35245698e-09 L15.9999451,1.04805054e-13 Z M8.60952609,6.27665564 L8.60952609,5.4150207 C8.60952609,5.28565258 8.61548434,5.18547979 8.62762428,5.11472577 C8.63968975,5.0438228 8.66709771,4.97411148 8.70962474,4.90529389 C8.7520773,4.83655078 8.82089512,4.78903387 8.91592926,4.76274317 C9.01103788,4.73637799 9.1375018,4.72326988 9.29532104,4.72326988 L10.1568845,4.72326988 L10.1568845,3 L8.77948526,3 C7.98241993,3 7.41005523,3.18909941 7.06216772,3.56729824 C6.71428021,3.94557154 6.54037369,4.50274079 6.54037369,5.2390294 L6.54037369,6.27665564 L5.50870215,6.27665564 L5.50870215,8 L6.54029922,8 L6.54029922,13 L8.60952609,13 L8.60952609,8 L9.98692528,8 L10.1689499,6.27665564 L8.60952609,6.27665564 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Social/Hover/Facebook" stroke="#000000" fill-rule="nonzero" stroke-width="2" fill="#000000">
+            <use id="facebook" mask="url(#mask-2)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

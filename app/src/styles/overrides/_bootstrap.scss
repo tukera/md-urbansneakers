@@ -1,0 +1,158 @@
+//== Typography
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4 {
+  text-transform: uppercase;
+}
+
+.h1,
+h1 {
+  letter-spacing: $us-letter-spacing-h1;
+  line-height: 54px;
+}
+
+.h2,
+h2 {
+  letter-spacing: $us-letter-spacing-h2;
+}
+
+.h3,
+h3 {
+  letter-spacing: $us-letter-spacing-h3;
+}
+
+.h4,
+h4 {
+  letter-spacing: $us-letter-spacing-h4;
+}
+
+//== Breadcrumb
+
+.breadcrumb {
+  margin: 0;
+}
+
+.breadcrumb-item a {
+  color: $medium-gray;
+}
+
+//== Buttons
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.focus,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-primary {
+  @include button-variant($white, $black, $black);
+
+  &:hover,
+  &.hover,
+  &:active,
+  &:focus {
+    color: $black;
+    box-shadow: none;
+  }
+
+  &.hvr-sweep-to-right::before {
+    background: $white;
+  }
+}
+
+.btn-outline-primary {
+  @include button-outline-variant($black);
+
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+
+  &.focus,
+  &:focus,
+  &.active,
+  &:active,
+  &:hover {
+    background-color: $white;
+    box-shadow: none;
+  }
+
+  &.disabled,
+  &:disabled {
+    background-color: $medium-gray;
+    border-color: $medium-gray;
+    color: $white;
+  }
+
+  &.hvr-sweep-to-right::before {
+    background: $black;
+  }
+}
+
+.btn-outline-secondary {
+  @include button-outline-variant($white);
+
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+
+  &.focus,
+  &:focus,
+  &.active,
+  &:active,
+  &:hover {
+    background-color: $black;
+    color: $black;
+    box-shadow: none;
+  }
+
+  &.hvr-sweep-to-right::before {
+    background: $white;
+  }
+}
+
+.btn-text-primary {
+  @include button-outline-variant($black);
+
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 0 solid;
+  cursor: pointer;
+  font-family: $font-family-base;
+  font-weight: bold;
+  line-height: 10px;
+
+  &.focus,
+  &:focus,
+  &.active,
+  &:active,
+  &:hover {
+    color: $black;
+    text-decoration: underline;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  &.focus,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.badge-primary {
+  letter-spacing: 1.3px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}

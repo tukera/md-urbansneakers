@@ -1,0 +1,51 @@
+$module: 'footer-primary';
+
+.#{$module} {
+  padding: 10px 0 30px;
+
+  &__headline {
+    padding-top: 30px;
+    display: block;
+
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+  }
+
+  &__separator {
+    margin: 2px auto 0;
+    border-color: $medium-gray;
+    width: 80%;
+
+    @include media-breakpoint-up(md) {
+      margin-left: 0;
+    }
+  }
+
+  &__ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__li {
+    margin-top: 10px;
+
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+  }
+
+  &__link {
+    color: $dark-gray;
+  }
+
+  &__social-media-links {
+    margin-top: 10px;
+
+    @include media-breakpoint-down(sm) {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

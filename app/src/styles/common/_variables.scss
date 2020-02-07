@@ -1,0 +1,154 @@
+//===================================
+//========== Urbansneakers ==========
+//===================================
+
+//== Colors
+
+$black:                                           #000 !default;
+$charcoal:                                        #323232 !default;
+$dark-gray:                                       #7D7D7D !default;
+$medium-gray:                                     #C8C8C8 !default;
+$gray:                                            #E1E1E1 !default;
+$light-gray:                                      #F3F3F3 !default;
+$white:                                           #FFF !default;
+
+$jade:                                            #00AB58 !default;
+$sun:                                             #FDD64B !default;
+$torch:                                           #B82802 !default;
+$windsor:                                         #6601B1 !default;
+$denim:                                           #005496 !default;
+
+//== Typography
+
+$us-letter-spacing-h1:                            4.5px !default;
+$us-letter-spacing-h2:                            2.4px !default;
+$us-letter-spacing-h3:                            1.8px !default;
+$us-letter-spacing-h4:                            1.4px !default;
+
+//===============================
+//========== Bootstrap ==========
+//===============================
+
+//== Typography
+
+$font-family-base:                                'PT Sans', sans-serif !default;
+$headings-font-family:                            'Oswald', sans-serif !default;
+
+$font-size-base:                                  0.8125rem !default;     // 13px
+$font-size-lg:                                    1rem !default;          // 16px
+$font-size-xs:                                    0.625rem !default;      // 10px
+
+$font-size-h1:                                    2.813rem !default;      // 45px
+$font-size-h2:                                    1.5rem !default;        // 24px
+$font-size-h3:                                    1.125rem !default;      // 18px
+$font-size-h4:                                    0.875rem !default;      // 14px
+
+$headings-font-weight:                            bold !default;
+$headings-line-height:                            1.2 !default;
+
+$headings-margin-bottom:                          0 !default;
+
+//== Body
+
+$body-bg:                                         $white !default;
+$body-color:                                      $charcoal !default;
+
+//== Grid
+
+$grid-gutter-widths: (
+  xs: 30px,
+  sm: 20px,
+  md: 20px,
+  lg: 20px,
+  xl: 30px
+) !default;
+
+$grid-breakpoints: (
+  xs: 0, // Mobile
+  sm: 496px, //Tablet --- diesen breakpoint gibts nicht in templates!
+  md: 768px, // Tablet
+  lg: 1024px, // Desktop
+  xl: 1440px, // Desktop HD
+) !default;
+
+$container-max-widths: (
+  xs: 414px,
+  sm: 568px,
+  md: 744px,
+  lg: 852px,
+  xl: 972px
+) !default;
+
+// Components
+
+$border-radius:                                  0 !default;
+$border-radius-lg:                               $border-radius !default;
+$border-radius-sm:                               $border-radius !default;
+
+//== Links
+
+$link-color:                                      $charcoal !default;
+//$link-decoration:                                 $us-link-decoration !default;
+//$link-hover-color:                                $us-link-hover-color !default;
+//$link-hover-decoration:                           $us-link-hover-decoration !default;
+
+//== Breadcrumb
+
+$breadcrumb-padding-y:                            20px !default;
+$breadcrumb-padding-x:                            0 !default;
+$breadcrumb-item-padding:                         5px !default;
+
+$breadcrumb-bg:                                   transparent !default;
+$breadcrumb-divider-color:                        $black !default;
+$breadcrumb-active-color:                         $black !default;
+$breadcrumb-divider:                              '>' !default;
+
+//== Forms
+
+$input-btn-border-width:                          2px !default;
+$input-border-color:                              $black !default;
+
+$input-border-radius:                             $border-radius !default;
+$input-border-radius-lg:                          $border-radius-lg !default;
+$input-border-radius-sm:                          $border-radius-sm !default;
+
+$input-border-focus:                              $black !default;
+$input-color-focus:                               $dark-gray !default;
+
+//== Buttons
+
+$btn-font-weight:                                 bold !default;
+
+$btn-text-primary-border:                         transparent;
+
+$btn-border-radius:                               0 !default;
+$btn-border-radius-lg:                            0 !default;
+$btn-border-radius-sm:                            0 !default;
+
+$btn-text-bg:                                     transparent;
+
+//== Badges
+
+$badge-primary-bg:                                $black !default;
+$badge-font-size:                                 $font-size-xs !default;
+$badge-font-weight:                               400 !default;
+$badge-padding-x:                                 20px;
+$badge-padding-y:                                 2px;
+
+//=================================
+//========== FontAwesome ==========
+//=================================
+
+$fa-font-path:                                    '~font-awesome/fonts/';
+
+//====================================
+//========== Slick Carousel ==========
+//====================================
+
+$slick-font-path:                                 '~font-awesome/fonts/' !default;
+$slick-loader-path:                               '~slick-carousel/slick/' !default;
+
+$slick-font-family:                               'FontAwesome' !default;
+
+$slick-prev-character:                            '\f190' !default;
+$slick-next-character:                            '\f18e' !default;

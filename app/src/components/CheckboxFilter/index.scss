@@ -1,0 +1,55 @@
+$module: 'checkbox-filter';
+
+.#{$module} {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__header-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: $font-size-lg;
+    letter-spacing: 1.07px;
+    font-family: $font-family-base;
+    font-weight: bold;
+  }
+
+  &__clear-button {
+    text-align: right;
+    padding: 0;
+    width: 42px;
+    margin-top: 9px;
+    height: 10px;
+  }
+
+  &__ul {
+    margin: 0;
+    padding: 0 5px 0 0;
+    list-style-type: none;
+    max-height: 242px;
+    overflow-y: auto;
+    position: relative;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $gray;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $black;
+      color: $black;
+    }
+
+    li {
+      margin: 0;
+      height: 15px;
+      margin-bottom: 10px;
+      font-size: 11px;
+    }
+  }
+}

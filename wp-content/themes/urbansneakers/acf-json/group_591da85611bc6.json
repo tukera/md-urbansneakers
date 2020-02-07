@@ -1,0 +1,75 @@
+{
+    "key": "group_591da85611bc6",
+    "title": "Magazin Custom Fields",
+    "fields": [
+        {
+            "key": "field_591da867b1519",
+            "label": "Brands",
+            "name": "brands",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "brand",
+            "field_type": "multi_select",
+            "allow_null": 0,
+            "add_term": 1,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "object",
+            "multiple": 0
+        },
+        {
+            "key": "field_5a251ff2cdd40",
+            "label": "Labels",
+            "name": "Labels",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "post_labels",
+            "field_type": "checkbox",
+            "allow_null": 1,
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 0,
+            "return_format": "object",
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "magazin"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1512398904
+}

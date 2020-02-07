@@ -1,0 +1,9 @@
+$module: 'brands-view';
+
+.#{$module} {
+  margin: 15px 0 0;
+
+  &__about-brand {
+    margin-bottom: 30px;
+  }
+}

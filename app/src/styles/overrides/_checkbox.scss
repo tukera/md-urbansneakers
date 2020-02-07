@@ -1,0 +1,41 @@
+input[type='checkbox'] {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+  height: 15px;
+  width: 15px;
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    height: 15px;
+    margin-bottom: 0;
+  }
+
+  // Box.
+  & + label::before {
+    content: '';
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 13px;
+    height: 13px;
+    background: transparent;
+    border: 1px solid $black;
+  }
+
+  // Box checked
+  &:checked + label::before {
+    background: $white;
+  }
+
+  &:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    width: 9px;
+    height: 9px;
+    background: $black;
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "taxonomy": {
+    "size": {
+      "women" : [
+        {
+          "name" : "35,5EU | 2,5UK | 5US",
+          "slug" : "35,5"
+        },
+        {
+          "name" : "36EU | 3UK | 5,5US",
+          "slug" : "36"
+        },
+        {
+          "name" : "36,5EU | 3,5UK | 6US",
+          "slug" : "36,5"
+        },
+        {
+          "name" : "37,5EU | 4UK | 6,5US",
+          "slug" : "37,5"
+        },
+        {
+          "name" : "38EU | 4,5UK | 7US",
+          "slug" : "38"
+        },
+        {
+          "name" : "38,5EU | 5UK | 7,5US",
+          "slug" : "38,5"
+        },
+        {
+          "name" : "39EU | 5,5UK | 8US",
+          "slug" : "39"
+        },
+        {
+          "name" : "40EU | 6UK | 8,5US",
+          "slug" : "40"
+        },
+        {
+          "name" : "40,5EU | 6,5UK | 9US",
+          "slug" : "40,5"
+        },
+        {
+          "name" : "41EU | 7UK | 9,5US",
+          "slug" : "41"
+        },
+        {
+          "name" : "42EU | 7,5UK | 10US",
+          "slug" : "42"
+        },
+        {
+          "name" : "42,5EU | 8UK | 10,5US",
+          "slug" : "42,5"
+        },
+        {
+          "name" : "43EU | 8,5UK | 11US",
+          "slug" : "43"
+        },
+        {
+          "name" : "44EU | 9UK | 11,5US",
+          "slug" : "44"
+        },
+        {
+          "name" : "44,5EU | 9,5UK | 12US",
+          "slug" : "44,5"
+        }
+      ],
+      "men" : [
+        {
+          "name" : "38,5EU | 5,5UK | 6US",
+          "slug" : "38,5"
+        },
+        {
+          "name" : "39EU | 6UK | 6,5US",
+          "slug" : "39"
+        },
+        {
+          "name" : "40EU | 6UK | 7US",
+          "slug" : "40"
+        },
+        {
+          "name" : "40,5EU | 6,5UK | 7,5US",
+          "slug" : "40,5"
+        },
+        {
+          "name" : "41EU | 7UK | 8US",
+          "slug" : "41"
+        },
+        {
+          "name" : "42EU | 7,5UK | 8,5US",
+          "slug" : "42"
+        },
+        {
+          "name" : "42,5EU | 8UK | 9US",
+          "slug" : "42,5"
+        },
+        {
+          "name" : "43EU | 8,5UK | 9,5US",
+          "slug" : "43"
+        },
+        {
+          "name" : "44EU | 9UK | 10US",
+          "slug" : "44"
+        },
+        {
+          "name" : "44,5EU | 9,5UK | 10,5US",
+          "slug" : "44,5"
+        },
+        {
+          "name" : "45EU | 10UK | 11US",
+          "slug" : "45"
+        },
+        {
+          "name" : "45,5EU | 10,5UK | 11,5US",
+          "slug" : "45,5"
+        },
+        {
+          "name" : "46EU | 11UK | 12US",
+          "slug" : "46"
+        },
+        {
+          "name" : "47EU | 11,5UK | 12,5US",
+          "slug" : "47"
+        },
+        {
+          "name" : "47,5EU | 12UK | 13US",
+          "slug" : "47,5"
+        },
+        {
+          "name" : "48EU | 12,5UK | 13,5US",
+          "slug" : "48"
+        },
+        {
+          "name" : "48,5EU | 13UK | 14US",
+          "slug" : "48,5"
+        },
+        {
+          "name" : "49,5EU | 14UK | 15US",
+          "slug" : "49,5"
+        },
+        {
+          "name" : "50,5EU | 15UK | 16US",
+          "slug" : "50,5"
+        },
+        {
+          "name" : "51,5EU | 16UK | 17US",
+          "slug" : "51,5"
+        },
+        {
+          "name" : "52,5EU | 17UK | 18US",
+          "slug" : "52,5"
+        }
+      ],
+      "kids" : [
+        {
+          "name" : "15EU | 0UK | 0US",
+          "slug" : "15"
+        },
+        {
+          "name" : "16EU | 0,5UK | 1US",
+          "slug" : "16"
+        },
+        {
+          "name" : "17EU | 1,5UK | 2US",
+          "slug" : "17"
+        },
+        {
+          "name" : "18,5EU | 2,5UK | 3US",
+          "slug" : "18,5"
+        },
+        {
+          "name" : "19,5EU | 3,5UK | 4US",
+          "slug" : "19,5"
+        },
+        {
+          "name" : "21EU | 4,5UK | 5US",
+          "slug" : "21"
+        },
+        {
+          "name" : "22EU | 5,5UK | 6US",
+          "slug" : "22"
+        },
+        {
+          "name" : "23,5EU | 6,5UK | 7US",
+          "slug" : "23,5"
+        },
+        {
+          "name" : "25EU | 7,5UK | 8US",
+          "slug" : "25"
+        },
+        {
+          "name" : "26EU | 8,5UK | 9US",
+          "slug" : "26"
+        },
+        {
+          "name" : "27EU | 9,5UK | 10US",
+          "slug" : "27"
+        },
+        {
+          "name" : "27,5EU | 10UK | 10,5US",
+          "slug" : "27,5"
+        },
+        {
+          "name" : "28EU | 10,5UK | 11US",
+          "slug" : "28"
+        },
+        {
+          "name" : "28,5EU | 11UK | 11,5US",
+          "slug" : "28,5"
+        },
+        {
+          "name" : "29,5EU | 11,5UK | 12US",
+          "slug" : "29,5"
+        },
+        {
+          "name" : "30EU | 12UK | 12,5US",
+          "slug" : "30"
+        },
+        {
+          "name" : "31EU | 12,5UK | 13US",
+          "slug" : "31"
+        },
+        {
+          "name" : "31,5EU | 13UK | 13,5US",
+          "slug" : "31,5"
+        },
+        {
+          "name" : "32EU | 13,5UK | 1US",
+          "slug" : "32"
+        },
+        {
+          "name" : "33EU | 14UK | 1,5US",
+          "slug" : "33"
+        },
+        {
+          "name" : "33,5EU | 1UK | 2US",
+          "slug" : "33,5"
+        },
+        {
+          "name" : "34EU | 1,5UK | 2,5US",
+          "slug" : "34"
+        },
+        {
+          "name" : "35EU | 2,5UK | 3,5US",
+          "slug" : "35"
+        },
+        {
+          "name" : "36EU | 3UK | 4US",
+          "slug" : "36"
+        },
+        {
+          "name" : "36,5EU | 3,5UK | 4,5US",
+          "slug" : "36,5"
+        },
+        {
+          "name" : "37EU | 4UK | 5US",
+          "slug" : "37"
+        },
+        {
+          "name" : "37,5EU | 4,5UK | 5,5US",
+          "slug" : "37,5"
+        },
+        {
+          "name" : "38EU | 5UK | 6US",
+          "slug" : "38"
+        },
+        {
+          "name" : "38,5EU | 5,5UK | 6,5US",
+          "slug" : "38,5"
+        },
+        {
+          "name" : "39EU | 6UK | 7US",
+          "slug" : "39"
+        }
+      ],
+      "adidas_adult" : [
+        {
+          "name" : "36EU | 3,5UK | 4US M | 5US W",
+          "slug" : "36"
+        },
+        {
+          "name" : "36⅔EU | 4UK | 4,5US M | 5,5US W",
+          "slug" : "36⅔"
+        },
+        {
+          "name" : "37⅓EU | 4,5UK | 5US M | 6US W",
+          "slug" : "37⅓"
+        },
+        {
+          "name" : "38EU | 5UK | 5,5US M | 6,5US W",
+          "slug" : "38"
+        },
+        {
+          "name" : "38⅔EU | 5,5UK | 6US M | 7US W",
+          "slug" : "38⅔"
+        },
+        {
+          "name" : "39⅓EU | 6UK | 6,5US M | 7,5US W",
+          "slug" : "39⅓"
+        },
+        {
+          "name" : "40EU | 6,5UK | 7US M | 8US W",
+          "slug" : "40"
+        },
+        {
+          "name" : "40⅔EU | 7UK | 7,5US M | 8,5US W",
+          "slug" : "40⅔"
+        },
+        {
+          "name" : "41⅓EU | 7,5UK | 8US M | 9US W",
+          "slug" : "41⅓"
+        },
+        {
+          "name" : "42EU | 8UK | 8,5US M | 9,5US W",
+          "slug" : "42"
+        },
+        {
+          "name" : "42⅔EU | 8,5UK | 9US M | 10US W",
+          "slug" : "42⅔"
+        },
+        {
+          "name" : "43⅓EU | 9UK | 9,5US M | 10,5US W",
+          "slug" : "43⅓"
+        },
+        {
+          "name" : "44EU | 9,5UK | 10US M | 11US W",
+          "slug" : "44"
+        },
+        {
+          "name" : "44⅔EU | 10UK | 10,5US M | 11,5US W",
+          "slug" : "44⅔"
+        },
+        {
+          "name" : "45⅓EU | 10,5UK | 11US M | 12US W",
+          "slug" : "45⅓"
+        },
+        {
+          "name" : "46EU | 11UK | 11,5US M | 12,5US W",
+          "slug" : "46"
+        },
+        {
+          "name" : "46⅔EU | 11,5UK | 12US M | 13US W",
+          "slug" : "46⅔"
+        },
+        {
+          "name" : "47⅓EU | 12UK | 12,5US M | 13,5US W",
+          "slug" : "47⅓"
+        }
+      ],
+      "adidas_kids" : [
+        {
+          "name" : "26,5EU | 9UK | 9,5US",
+          "slug" : "26,5"
+        },
+        {
+          "name" : "27EU | 9,5UK | 10US",
+          "slug" : "27"
+        },
+        {
+          "name" : "27,5EU | 10UK | 10,5US",
+          "slug" : "27,5"
+        },
+        {
+          "name" : "28EU | 10,5UK | 11US",
+          "slug" : "28"
+        },
+        {
+          "name" : "29EU | 11UK | 11,5US",
+          "slug" : "29"
+        },
+        {
+          "name" : "30EU | 11,5UK | 12US",
+          "slug" : "30"
+        },
+        {
+          "name" : "30,5EU | 12UK | 12,5US",
+          "slug" : "30,5"
+        },
+        {
+          "name" : "31EU | 12,5UK | 13US",
+          "slug" : "31"
+        },
+        {
+          "name" : "31,5EU | 13UK | 13,5US",
+          "slug" : "31,5"
+        },
+        {
+          "name" : "32EU | 13,5UK | 1US",
+          "slug" : "32"
+        },
+        {
+          "name" : "33EU | 1UK | 1,5US",
+          "slug" : "33"
+        },
+        {
+          "name" : "33,5EU | 1,5UK | 2US",
+          "slug" : "33,5"
+        },
+        {
+          "name" : "34EU | 2UK | 2,5US",
+          "slug" : "34"
+        },
+        {
+          "name" : "35EU | 2,5UK | 3US",
+          "slug" : "35"
+        },
+        {
+          "name" : "35,5EU | 3UK | 3,5US",
+          "slug" : "35,5"
+        },
+        {
+          "name" : "36EU | 3,5UK | 4US",
+          "slug" : "36"
+        },
+        {
+          "name" : "36⅔EU | 4UK | 4,5US",
+          "slug" : "36⅔"
+        },
+        {
+          "name" : "37⅓EU | 4,5UK | 5US",
+          "slug" : "37⅓"
+        },
+        {
+          "name" : "38EU | 5UK | 5,5US",
+          "slug" : "38"
+        },
+        {
+          "name" : "38⅔EU | 5,5UK | 6US",
+          "slug" : "38⅔"
+        },
+        {
+          "name" : "39⅓EU | 6UK | 6,5US",
+          "slug" : "39⅓"
+        },
+        {
+          "name" : "40EU | 6,5UK | 7US",
+          "slug" : "40"
+        }
+      ]
+    },
+    "brand": [
+      "Adidas",
+      "Nike"
+    ],
+    "color" : [
+      "Beige",
+      "Blau",
+      "Braun",
+      "Cream",
+      "Gelb",
+      "Gold",
+      "Grau",
+      "Grün",
+      "Khaki",
+      "Lila",
+      "Mehrfarbig",
+      "Navy",
+      "Olive",
+      "Orange",
+      "Pink",
+      "Print",
+      "Rosa",
+      "Rot",
+      "Schwarz",
+      "Silber",
+      "Weiß"
+    ],
+    "use": [
+      "American Football",
+      "Baseball & Softball",
+      "Basketball",
+      "Fitness & Training",
+      "Soccer",
+      "Golf",
+      "Running",
+      "Athletics",
+      "Skateboarding",
+      "Tennis"
+    ],
+    "style": [
+      "Low-top",
+      "High-top",
+      "Slip-on"
+    ],
+    "material": [
+      "Cotton",
+      "Denim",
+      "Leather",
+      "Plastic",
+      "Wool"
+    ],
+    "merchant": [
+      "43einhalb ",
+      "Adidas",
+      "Afew Store",
+      "Allike",
+      "Blue Tomato",
+      "Defshop",
+      "Footlocker",
+      "Hhv",
+      "Inflammable",
+      "Nike",
+      "Overkill",
+      "Saveoursole",
+      "Sidestep",
+      "Sneakerworldshop",
+      "Snipes",
+      "Stickabush"
+    ],
+    "labels": [
+      "New",
+      "Sale"
+    ],
+    "post_labels": [
+      "Featured"
+    ]
+  }
+}

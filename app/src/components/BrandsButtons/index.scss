@@ -1,0 +1,57 @@
+$module: 'brands-buttons';
+
+.#{$module} {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__char-button {
+    border: 1px solid $black;
+    background-color: $white;
+    padding: 0;
+
+    &:link {
+      color: $black;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      color: $white;
+      background-color: $black;
+    }
+
+    @include media-breakpoint-up(xs) {
+      height: 26px;
+      width: 26px;
+      margin-right: 6px;
+      margin-bottom: 7px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 22px;
+      width: 22px;
+      margin-right: 8px;
+      margin-bottom: 7px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin-right: 12px;
+      margin-bottom: 7px;
+    }
+  }
+
+  &__char-button_disabled {
+    border: 1px solid $medium-gray;
+
+    &:not([href]):not([tabindex]) {
+      color: $medium-gray;
+    }
+
+    &:not([href]):not([tabindex]):hover {
+      color: $medium-gray;
+      background-color: $white;
+    }
+  }
+}

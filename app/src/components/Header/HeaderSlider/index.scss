@@ -1,0 +1,97 @@
+$module: 'header-slider';
+
+.#{$module} {
+  &__arrows-wrapper {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 512;
+  }
+
+  &__arrow-next,
+  &__arrow-prev {
+    border: 0 solid;
+    height: 19px;
+    width: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    .spinning-icon {
+      svg {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        fill: none;
+        stroke-width: 2px;
+        top: -15px;
+        left: -17px;
+
+        @keyframes dash {
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+
+        &:hover path {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 0.5s linear forwards;
+        }
+      }
+    }
+  }
+
+  &__arrow-next {
+    .spinning-icon {
+      svg {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        transform-origin: center center;
+      }
+    }
+  }
+
+  &__arrow-prev {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transform-origin: center center;
+  }
+
+  .slick-slider {
+    .slick-dots {
+      bottom: 40px;
+    }
+
+    .slick-dots li {
+      width: 20px;
+      height: 20px;
+      margin: 0;
+    }
+
+    .slick-dots li button::before {
+      opacity: 1;
+      content: '\f10c';
+      font-size: 15px;
+    }
+
+    .slick-dots li.slick-active button::before {
+      opacity: 1;
+      content: '\f111';
+    }
+
+    .slick-active .header-slider-post__image-wrapper {
+      opacity: 0.15;
+      transition: opacity 0.3s 0.1s;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.social-links {
+  display: flex;
+
+  &__image {
+    width: 16px;
+    height: 16px;
+    margin: 0 2.5px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &_invert {
+      // TODO: Is it acceptable?
+      filter: invert(100%);
+    }
+
+    &_facebook {
+      background-image: url('../../../public/assets/social_media/normal/facebook.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/hover/facebook.svg');
+      }
+    }
+
+    &_instagram {
+      background-image: url('../../../public/assets/social_media/normal/instagram.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/hover/instagram.svg');
+      }
+    }
+
+    &_twitter {
+      background-image: url('../../../public/assets/social_media/normal/twitter.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/hover/twitter.svg');
+      }
+    }
+
+    &_pinterest {
+      background-image: url('../../../public/assets/social_media/normal/pinterest.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/hover/pinterest.svg');
+      }
+    }
+
+    &_mail {
+      background-image: url('../../../public/assets/social_media/normal/mail.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/normal/mail.svg'); //TODO: need this image from Camila
+      }
+    }
+
+    &_whatsapp {
+      background-image: url('../../../public/assets/social_media/normal/whatsapp.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/normal/whatsapp.svg'); //TODO: need this image from Camila
+      }
+    }
+
+    &_googleplus {
+      background-image: url('../../../public/assets/social_media/normal/google-plus.svg');
+
+      &:hover {
+        background-image: url('../../../public/assets/social_media/normal/google-plus.svg'); //TODO: need this image from Camila
+      }
+    }
+  }
+}

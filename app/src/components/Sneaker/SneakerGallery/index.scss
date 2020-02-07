@@ -1,0 +1,81 @@
+$module: 'sneaker-gallery';
+
+.#{$module} {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  @include media-breakpoint-down(xs) {
+    flex-direction: column-reverse;
+  }
+
+  &__portrait {
+    position: relative;
+
+    @include media-breakpoint-up(sm) {
+      width: 85%;
+    }
+  }
+
+  &__list-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    @include media-breakpoint-down(xs) {
+      flex-direction: row;
+      padding-top: 10px;
+    }
+
+    @include media-breakpoint-up(sm) {
+      width: 12%;
+    }
+  }
+
+  &__list-item {
+    margin-bottom: 7px;
+
+    + &__list-item {
+      @include media-breakpoint-down(xs) {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  &__list-image-wrapper {
+    display: block;
+    border: 1px solid $white;
+
+    &.focus,
+    &:focus,
+    &.active,
+    &:active,
+    &:hover {
+      border: 1px solid $black;
+    }
+  }
+
+  &__image-tag {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    height: 20px;
+    min-width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    &_sale {
+      background: $torch;
+      color: $white;
+    }
+
+    &_new {
+      background: $gray;
+      color: $black;
+    }
+  }
+}

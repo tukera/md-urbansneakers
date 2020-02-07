@@ -1,0 +1,24 @@
+$module: 'sneaker-related';
+
+.#{$module} {
+  padding-bottom: 40px;
+
+  &__heading {
+    position: relative;
+  }
+
+  &__title {
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: $font-size-lg;
+    color: $dark-gray;
+    font-weight: bold;
+  }
+}

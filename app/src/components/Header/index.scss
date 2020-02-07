@@ -1,0 +1,11 @@
+$module: 'header';
+
+.#{$module} {
+  &__navigation_posts,
+  &__navigation_home {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1024;
+  }
+}

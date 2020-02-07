@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'urbansneakers';
+  src: url('/urbansneakers/urbansneakers.eot?avai6x');
+  src:
+    url('/urbansneakers/urbansneakers.eot?avai6x#iefix') format('embedded-opentype'),
+    url('/urbansneakers/urbansneakers.ttf?avai6x') format('truetype'),
+    url('/urbansneakers/urbansneakers.woff?avai6x') format('woff'),
+    url('/urbansneakers/urbansneakers.svg?avai6x#urbansneakers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'urbansneakers' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.urbansneakers-angle {
+  &::before {
+    content: '\e900';
+  }
+}
+
+.urbansneakers-close {
+  &::before {
+    content: '\e901';
+  }
+}
+
+.urbansneakers-facebook {
+  &::before {
+    content: '\e902';
+  }
+}
+
+.urbansneakers-hamburger {
+  &::before {
+    content: '\e903';
+  }
+}
+
+.urbansneakers-search {
+  &::before {
+    content: '\e904';
+  }
+}
+
+.urbansneakers-google-plus {
+  &::before {
+    content: '\e905';
+  }
+}
+
+.urbansneakers-instagram {
+  &::before {
+    content: '\e906';
+  }
+}
+
+.urbansneakers-mail {
+  &::before {
+    content: '\e907';
+  }
+}
+
+.urbansneakers-pinterest {
+  &::before {
+    content: '\e908';
+  }
+}
+
+.urbansneakers-twitter {
+  &::before {
+    content: '\e909';
+  }
+}
+
+.urbansneakers-whatsapp {
+  &::before {
+    content: '\e90a';
+  }
+}

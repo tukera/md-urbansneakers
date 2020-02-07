@@ -1,0 +1,17 @@
+$module: 'sneaker-colors';
+
+.#{$module} {
+  &__image-wrapper {
+    margin: 0 11px 11px 0;
+    display: inline-block;
+    border: 1px solid $white;
+
+    &.focus,
+    &:focus,
+    &.active,
+    &:active,
+    &:hover {
+      border: 1px solid $black;
+    }
+  }
+}

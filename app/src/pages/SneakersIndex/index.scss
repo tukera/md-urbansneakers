@@ -1,0 +1,14 @@
+$module: 'sneakers-index';
+
+.#{$module} {
+  margin: 15px 0 40px;
+
+  &__sneaker-card {
+    margin-bottom: 20px;
+  }
+
+  &__button-wrapper {
+    padding: 10px 0;
+    text-align: center;
+  }
+}

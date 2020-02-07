@@ -1,0 +1,60 @@
+$module: 'about-brand';
+
+.#{$module} {
+  display: flex;
+  justify-content: space-between;
+  border-color: $gray;
+  border-style: solid;
+  border-width: 1px 0;
+  width: 100%;
+
+  @include media-breakpoint-down(sm) {
+    border: 0 solid;
+  }
+
+  &__meta {
+    width: 35%;
+    padding-top: 20px;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__separator {
+    margin: 8px 0 20px;
+    border-color: $black;
+    border-width: 2px;
+    width: 30px;
+
+    @include media-breakpoint-down(sm) {
+      margin: 8px auto 20px;
+    }
+  }
+
+  &__image-wrapper {
+    height: 180px;
+    overflow: hidden;
+    padding: 5px 0;
+  }
+
+  &__image,
+  &__placeholder {
+    object-fit: cover;
+  }
+
+  &__excerpt {
+    width: 85%;
+  }
+
+  &__placeholder-wrapper {
+    height: 180px;
+    width: 65%;
+    overflow: hidden;
+
+    @include media-breakpoint-down(lg) {
+      width: 60%;
+    }
+  }
+}

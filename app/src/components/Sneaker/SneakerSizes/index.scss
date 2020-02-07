@@ -1,0 +1,35 @@
+$module: 'sneaker-sizes';
+
+.#{$module} {
+  &__headline {
+    font-size: 0.6875rem;
+    margin-bottom: 7px;
+    font-family: $font-family-base;
+    letter-spacing: 0.125rem;
+  }
+
+  &__values-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__value {
+    color: $dark-gray;
+    font-size: 0.75rem;
+    border-collapse: collapse;
+    margin-right: 10px;
+    border: 1px solid $white;
+    cursor: pointer;
+    padding: 2px;
+
+    &.focus,
+    &:focus,
+    &.active,
+    &:active,
+    &:hover {
+      border: 1px solid $black;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+$module: 'post-card';
+
+.#{$module} {
+  &__image-wrapper:hover {
+    .#{$module}__image-overlay,
+    .#{$module}__social-media-links {
+      @include media-breakpoint-up(lg) {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .#{$module}__image {
+      @include media-breakpoint-up(lg) {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      }
+    }
+  }
+
+  &__image-wrapper {
+    display: block;
+    position: relative;
+    text-decoration: none;
+  }
+
+  &__image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($black, 0.7);
+  }
+
+  &__image-overlay,
+  &__social-media-links {
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+  }
+
+  &__social-media-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 18px;
+  }
+
+  &__badge {
+    padding: 2px 20px;
+    position: absolute;
+    bottom: -10px;
+    z-index: 128;
+    width: 67px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: $black;
+    font-size: $font-size-xs;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__published {
+    font-size: $font-size-xs;
+    color: $dark-gray;
+  }
+
+  &__title {
+    display: block;
+    font-family: $font-family-base;
+    font-size: 0.875rem; // 14px
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $black;
+    max-height: 48px;
+    overflow: hidden;
+  }
+
+  &__separator {
+    margin: 5px 0;
+    border-color: $black;
+    width: 30px;
+  }
+
+  &__excerpt {
+    line-height: 1.35;
+    color: $dark-gray;
+  }
+
+  &_is-light {
+    .#{$module}__badge {
+      visibility: hidden;
+    }
+
+    .#{$module}__link,
+    .#{$module}__title {
+      color: $white;
+    }
+
+    .#{$module}__separator {
+      border-color: $white;
+    }
+
+    .#{$module}__published,
+    .#{$module}__excerpt {
+      color: $dark-gray;
+    }
+  }
+}

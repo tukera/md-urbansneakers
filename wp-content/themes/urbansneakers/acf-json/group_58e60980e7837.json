@@ -1,0 +1,522 @@
+{
+    "key": "group_58e60980e7837",
+    "title": "Color variation",
+    "fields": [
+        {
+            "key": "field_5900ca75a7d44",
+            "label": "Variant",
+            "name": "variant",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "variant-wrapper",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add New Color",
+            "sub_fields": [
+                {
+                    "key": "field_58fdb6dfcfb2d",
+                    "label": "Original Price",
+                    "name": "original_price",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5900cb4365784",
+                    "label": "EAN",
+                    "name": "ean",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5901d680cc248",
+                    "label": "SKU",
+                    "name": "sku",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59380612de8af",
+                    "label": "Color Description",
+                    "name": "color_description",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5900cb0765782",
+                    "label": "Color",
+                    "name": "color",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "color",
+                    "field_type": "checkbox",
+                    "allow_null": 1,
+                    "add_term": 1,
+                    "save_terms": 1,
+                    "load_terms": 0,
+                    "return_format": "object",
+                    "multiple": 0
+                },
+                {
+                    "key": "field_58e6098432d5d",
+                    "label": "Merchant",
+                    "name": "merchant",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 1,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Add New Merchant",
+                    "sub_fields": [
+                        {
+                            "key": "field_58e609be32d5e",
+                            "label": "Merchant Name",
+                            "name": "merchant_name",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "merchant",
+                            "field_type": "select",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58fe4e8a3eb66",
+                            "label": "Adidas Size Standard",
+                            "name": "is_adidas",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_58e662533a291",
+                            "label": "Gender",
+                            "name": "gender",
+                            "type": "checkbox",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "men": "men",
+                                "women": "women",
+                                "kids": "kids"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [
+                                "men"
+                            ],
+                            "layout": "vertical",
+                            "toggle": 1,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58e60a0e32d5f",
+                            "label": "Men Size",
+                            "name": "men_size",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "men"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "men",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58e662b23a292",
+                            "label": "Women Size",
+                            "name": "women_size",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "women"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "women",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58fe4fe062e8e",
+                            "label": "Kids Size",
+                            "name": "kids_size",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "kids"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "women",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58fe4f281d649",
+                            "label": "Adidas adult",
+                            "name": "adidas_adult",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "men"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "women"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "adidas_adult",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58fe4f73a960b",
+                            "label": "Adidas kids",
+                            "name": "adidas_kids",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58e662533a291",
+                                        "operator": "==",
+                                        "value": "kids"
+                                    },
+                                    {
+                                        "field": "field_58fe4e8a3eb66",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "adidas_kids",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58e60a8432d60",
+                            "label": "Affiliate link",
+                            "name": "affiliate_link",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_58eb542840477",
+                            "label": "Availability",
+                            "name": "availability",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_58eb67b1b7a35",
+                            "label": "Price",
+                            "name": "price",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_59676f11dd020",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "taxonomy",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "labels",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 1,
+                            "save_terms": 1,
+                            "load_terms": 0,
+                            "return_format": "object",
+                            "multiple": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_5900cb642a24b",
+                    "label": "Gallery",
+                    "name": "gallery",
+                    "type": "gallery",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "min": "",
+                    "max": "",
+                    "insert": "append",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sneaker"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "categories"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1499951202
+}

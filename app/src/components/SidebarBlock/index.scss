@@ -1,0 +1,13 @@
+$module: 'sidebar-block';
+
+.#{$module} {
+  margin-bottom: 30px;
+
+  &__headline {
+    color: $black;
+  }
+
+  &__separator {
+    margin-top: 0.225rem;
+  }
+}

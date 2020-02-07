@@ -1,0 +1,7 @@
+.acf-input .acf-table {
+    width: 100%;
+}
+
+.acf-input .acf-table tr td {
+    white-space:nowrap;
+}

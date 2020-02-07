@@ -1,0 +1,87 @@
+$module: 'shop-select';
+
+.#{$module} {
+  margin-top: 10px;
+
+  .Select-control {
+    border-radius: 0;
+    border: 2px solid $black;
+    right: -1px;
+  }
+
+  .Select-arrow {
+    border-color: $black transparent transparent;
+  }
+
+  .Select-placeholder {
+    color: $black;
+  }
+
+  .Select-menu-outer {
+    border: 2px solid $black;
+    border-top-width: 1px;
+  }
+
+  &.is-focused:not(.is-open) > .Select-control {
+    border-color: $black;
+    box-shadow: none;
+  }
+
+  .Select-option {
+    color: $black;
+
+    &.is-selected {
+      background-color: $white;
+    }
+
+    &.is-focused {
+      background-color: $white;
+    }
+
+    &:hover {
+      background-color: #F5F5F5;
+    }
+  }
+
+  &__option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+
+    &-image {
+      width: 50px;
+      height: 100%;
+    }
+
+    &-data {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &-name {
+      margin-left: 10px;
+      color: $black;
+    }
+
+    &-prices {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-original-price {
+      font-weight: bold;
+      color: $gray;
+    }
+
+    &-original-price_line-through {
+      text-decoration: line-through;
+    }
+
+    &-price {
+      font-weight: bold;
+    }
+  }
+}

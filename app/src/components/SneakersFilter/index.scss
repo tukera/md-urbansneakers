@@ -1,0 +1,25 @@
+$module: 'sneakers-filter';
+
+.#{$module} {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__clear-button {
+    width: 42px;
+    text-align: right;
+    margin-top: 2px;
+    padding: 0;
+  }
+
+  &__separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__loader {
+    padding: 150px 0;
+  }
+}

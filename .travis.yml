@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - 4
+
+cache:
+  yarn: true
+
+script:
+  - sh -c "cd app/ && npm run lint"

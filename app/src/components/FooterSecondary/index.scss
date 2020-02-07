@@ -1,0 +1,98 @@
+$module: 'footer-secondary';
+
+.#{$module} {
+  padding: 24px 0 50px;
+  background-color: $black;
+
+  &__headline {
+    text-align: center;
+    color: $white;
+  }
+
+  &__separator {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    border-color: $white;
+    width: 30px;
+  }
+
+  &__slide {
+    padding: 0 15px;
+    max-height: 291px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  &__arrow-next,
+  &__arrow-prev {
+    border: 0 solid;
+    height: 19px;
+    width: 18px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+
+    &:focus {
+      outline: none;
+    }
+
+    .spinning-icon {
+      svg {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        fill: none;
+        stroke-width: 2px;
+        top: -15px;
+        left: -17px;
+
+        @keyframes dash {
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+
+        &:hover path {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: dash 0.5s linear forwards;
+        }
+      }
+    }
+  }
+
+  &__arrow-next {
+    right: -35px;
+
+    .spinning-icon {
+      svg {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        transform-origin: center center;
+      }
+    }
+  }
+
+  &__arrow-prev {
+    left: -35px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transform-origin: center center;
+  }
+
+  .post-card__excerpt {
+    ::before {
+      content: '...';
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      background-color: $black;
+    }
+  }
+}

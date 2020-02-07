@@ -1,0 +1,57 @@
+$module: 'magazines-view';
+
+.#{$module} {
+  margin: 15px 0 0;
+
+  &__headline {
+    color: $black;
+  }
+
+  &__social-media-links {
+    margin: 10px 0;
+  }
+
+  &__published {
+    margin: 10px 0;
+    font-size: $font-size-xs;
+    color: $medium-gray;
+  }
+
+  &__publisher {
+    font-size: $font-size-xs;
+    text-transform: capitalize;
+  }
+
+  &__separator {
+    margin: 10px 0;
+    border-width: 2px;
+    border-color: $dark-gray;
+    width: 30px;
+  }
+
+  &__wysiwyg-wrapper {
+    margin: 10px 0 30px;
+    font-size: $font-size-lg;
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: $windsor;
+    }
+
+    img {
+      width: auto !important;
+      height: auto !important;
+    }
+  }
+
+  &__related-brands {
+    margin: 30px 0;
+  }
+
+  &__badge {
+    margin-right: 10px;
+  }
+}

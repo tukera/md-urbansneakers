@@ -1,0 +1,53 @@
+$module: 'error-page';
+
+.#{$module} {
+  position: relative;
+  margin: 20px 0;
+
+  &__image-wrapper {
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    min-width: 1920px;
+    height: 500px;
+  }
+
+  &__content {
+    position: absolute;
+    max-width: 600px;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: $white;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__separator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: $white;
+    width: 50px;
+  }
+
+  &__link {
+    color: $white;
+    font-weight: bold;
+
+    &.focus,
+    &:focus,
+    &:hover {
+      color: $white;
+    }
+  }
+}
